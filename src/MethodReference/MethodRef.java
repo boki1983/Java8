@@ -20,7 +20,7 @@ public class MethodRef {
         Method references help to point to methods by their names.
         A method reference is described using :: (double colon) symbol.
         */
-
+        //Reference To An Instance Method Of A Particular Object
         names.forEach(System.out::println);
     }
 }
