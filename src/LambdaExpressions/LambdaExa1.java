@@ -9,6 +9,9 @@ public class LambdaExa1 {
     public static void main(String args[]){
         LambdaExa1 lambda = new LambdaExa1();
 
+        // used primarily to define inline implementation of a functional interface
+        // eliminates the need of anonymous class  eliminates the need of anonymous class
+
         //with type declaration
         MathOperation addition = (int a, int b) -> a + b;
         //with out type declaration
